@@ -21,7 +21,7 @@ app.use(express.json());
 app.use(cors());
 
 app.get('/', (req, res) => {
-    res.send(database.users)
+    res.send("This is your server running on port 3000")
 })
 
 app.post('/signin', (req, res) => {
